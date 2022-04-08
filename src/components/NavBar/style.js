@@ -16,10 +16,15 @@ export const Brand = styled.div`
   font-size: 32px;
   letter-spacing: 1.28px;
   color: ${({ theme }) => theme.colors.yellow};
+  width: 20px;
+  line-height: 0.8;
+  display: flex;
+  align-items: center
 
   span {
     font-size: 24px;
     letter-spacing: 0.96px;
+    margin-left: 12px;
   }
 `;
 
